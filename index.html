@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- CSS location-->
     <link rel="stylesheet" href="./Assets/css/Styles.css" />
+    
     <title>Coding Quiz</title>
   </head>
 
@@ -16,10 +19,10 @@
       <div id="landing-page" class="start">
         <h1>Javascript Coding Quiz</h1>
         <p>
-            Test your knowledge of Javascript by answering the following five questions within the 2.5 minute time limit.
-            <br>
-            <br>
-            Each incorrect answer will subtract 10 seconds off the clock. For every correct answer you'll receive 10 points plus half of your remaining time as bonus points. 
+          Test your knowledge of Javascript by answering the following five questions within the 2.5 minute time limit.
+          <br>
+          <br>
+          Each incorrect answer will subtract 10 seconds off the clock. For every correct answer you'll receive 10 points plus half of your remaining time as bonus points. 
         </p>
         <button id="start">Start Quiz</button>
       </div>
@@ -33,15 +36,13 @@
         <h2>Great job!</h2>
         <p>Your final score is <span id="final-score"></span>.</p>
         <p>
-          Enter initials: <input type="text" id="initials" max="3" />
+          Enter initials: <input type="text" id="initials">
           <button id="submit">Submit</button>
         </p>
       </div>
-
       <div id="response" class="response hide"></div>
     </div>
-
-    
+     <!-- Main JavaScript-->
     <script src="./Assets/js/Script.js"></script>
   </body>
 </html>

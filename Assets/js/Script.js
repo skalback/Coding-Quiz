@@ -134,7 +134,6 @@ function calculateFinalScore(){
 function finishQuiz() {
   
   clearInterval(timer);
-
   // Display final page with score.
   var finalPageEl = document.getElementById("final-page");
   finalPageEl.removeAttribute("class");
